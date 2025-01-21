@@ -33,7 +33,7 @@ const SignupPage = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 height: '100vh',
-                backgroundImage: 'url(https://static.vecteezy.com/system/resources/previews/013/488/528/original/flat-global-data-protection-cyber-data-security-online-with-information-privacy-and-protection-idea-concept-outline-design-style-illustration-for-landing-page-web-banner-infographics-hero-images-vector.jpg)', // Add your image URL here
+                backgroundImage: 'url(https://static.vecteezy.com/system/resources/previews/015/678/452/non_2x/confidential-documents-security-illustration-concept-a-flat-illustration-isolated-on-white-background-vector.jpg)', // Add your image URL here
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',

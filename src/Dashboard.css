@@ -1,0 +1,21 @@
+/* App.css */
+
+/* Global Reset */
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Optional: Adjust the navbar brand (right side) for spacing */
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+/* Optional: Customize Carousel Caption Background */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 4px;
+}

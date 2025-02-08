@@ -11,6 +11,7 @@ import Dashboard from './Dashboard';
 import SignupPage from './SignupPage';
 import LoginPage from './LoginPage';
 
+
 function App() {
   return (
     <Router>
@@ -52,7 +53,6 @@ function App() {
                   <Link className="nav-link" to="/features">Features</Link>
                 </li>
                 <li className="nav-item">
-                  {/* If you have an About Us page, adjust the route accordingly */}
                   <Link className="nav-link" to="/about">About Us</Link>
                 </li>
                 <li className="nav-item">

@@ -9,6 +9,7 @@ import {
 import Dashboard from './Dashboard';
 import LoginPage from './LoginPage';
 import SignupPage from './SignupPage';
+import Aboutus from './Aboutus'; 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -21,7 +22,7 @@ const AppContent = () => {
   // Determine if we should show the carousel.
   // Here, we hide the carousel on login and signup pages.
   const showCarousel = !(
-    location.pathname === '/login' || location.pathname === '/signup' 
+    location.pathname === '/login' || location.pathname === '/signup' || location.pathname === '/about'
   );
 
   return (
@@ -64,6 +65,9 @@ const AppContent = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/signup">Sign-up</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">About us</Link>
               </li>
             </ul>
           </div>
@@ -115,6 +119,7 @@ const AppContent = () => {
           <Route path="/" element={<Dashboard />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
+          <Route path="/about" element={<Aboutus />} />
         </Routes>
       </div>
     </div>

@@ -37,7 +37,7 @@ const LoginPage = () => {
         textAlign: 'center',
         backgroundColor: 'white',
       }}>
-        <h2>Login</h2>
+        <h4>Login</h4>
         {error && <div style={{ color: 'red', marginBottom: '20px' }}>{error}</div>}
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
           <div style={{ textAlign: 'left' }}>

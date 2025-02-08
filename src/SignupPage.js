@@ -41,8 +41,8 @@ const SignupPage = () => {
         textAlign: 'center',
         backgroundColor: 'white',
       }}>
-        <h4>Don't have an account already?</h4>
-        <h2>Signup</h2>
+        <h6>Create your account today!</h6>
+        <h4>Signup</h4>
         {error && <div style={{ color: 'red', marginBottom: '10px' }}>{error}</div>}
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
           <div style={{ textAlign: 'left' }}>

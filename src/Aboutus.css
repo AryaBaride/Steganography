@@ -1,0 +1,38 @@
+.about-us-container {
+    display: flex;
+    flex-direction: row;   /* Side-by-side layout */
+    align-items: center;    /* Vertically center the content */
+    justify-content: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .left-side {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .right-side h1 {
+    margin-bottom: 20px;
+  }
+  
+  .right-side p {
+    margin-bottom: 15px;
+  }
+  

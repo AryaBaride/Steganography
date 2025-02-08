@@ -7,13 +7,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Carousel = () => {
   const settings = {
-    dots: true,             // Show navigation dots
-    infinite: true,         // Infinite looping of slides
-    speed: 1000,            // Transition speed (in ms)
-    slidesToShow: 1,        // Number of slides to show at once
-    slidesToScroll: 1,      // Number of slides to scroll at once
-    autoplay: true,         // Enable auto play
-    autoplaySpeed: 3000,    // Auto play interval (in ms)
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000, 
   };
 
   return (

@@ -18,11 +18,12 @@ import './App.css';
 // Create a component to hold your main content and conditionally render the carousel
 const AppContent = () => {
   const location = useLocation();
+  
 
   // Determine if we should show the carousel.
   // Here, we hide the carousel on login and signup pages.
   const showCarousel = !(
-    location.pathname === '/login' || location.pathname === '/signup' || location.pathname === '/about'
+    location.pathname === '/login' || location.pathname === '/signup' || location.pathname === '/about' 
   );
 
   return (
@@ -90,7 +91,7 @@ const AppContent = () => {
             </div>
             <div className="carousel-item">
               <img 
-                src="https://static.vecteezy.com/system/resources/previews/023/258/497/non_2x/digital-data-protection-design-illustration-cyber-security-illustration-background-cloud-computing-network-safety-concept-free-png.png" 
+                src="https://static.vecteezy.com/system/resources/previews/023/365/220/original/digital-data-protection-design-illustration-cyber-security-illustration-background-cloud-computing-network-safety-concept-free-png.png" 
                 className="d-block w-100" 
                 alt="Slide 2"
               />

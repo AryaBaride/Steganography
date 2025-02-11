@@ -14,6 +14,7 @@ import Aboutus from './Aboutus';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './App.css';
+import './navbar.css';
 
 // Create a component to hold your main content and conditionally render the carousel
 const AppContent = () => {
@@ -29,13 +30,13 @@ const AppContent = () => {
   return (
     <div className="App">
       {/* Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark custom-navbar">
         <div className="container">
           {/* Branding on the Left */}
           <Link className="navbar-brand" to="/">
             <img 
-              src="https://static.thenounproject.com/png/1871532-200.png" 
-              height={48} 
+              src="https://static.vecteezy.com/system/resources/previews/008/442/122/original/security-icon-shield-security-symbol-in-trendy-design-vector.jpg" 
+              height={50} 
               width={60}
               className="d-inline-block align-middle me-4" 
               alt="Logo"

@@ -18,7 +18,7 @@ const AboutUs = () => {
       {/* Left section: image */}
       <div className="left-side">
         <img
-          src="https://static.vecteezy.com/system/resources/previews/023/258/497/large_2x/digital-data-protection-design-illustration-cyber-security-illustration-background-cloud-computing-network-safety-concept-free-png.png" 
+          src="https://cdni.iconscout.com/illustration/premium/thumb/cyber-security-4651987-3855989.png" 
           alt="About Us"
           className="about-image"
         />

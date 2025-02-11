@@ -62,7 +62,7 @@ const LoginPage = () => {
               style={{ width: '96%', padding: '5px', borderRadius: '4px', border: '1px solid #ccc', marginTop: '5px' }}
             />
           </div>
-          <button type="submit" style={{ backgroundColor: '#000080', color: 'white', padding: '10px', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
+          <button type="submit" style={{ backgroundColor: '#202d8c', color: 'white', padding: '10px', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
             Login
           </button>
         </form>
